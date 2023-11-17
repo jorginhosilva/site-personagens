@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e01a38;
+}
+
+input {
+    padding: 1rem;
+    background-color: #3a3939;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+address {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3939;
+}
+
+.button-pesquisar {
+    outline: none;
+    border: none;
+    background-color: #e01a38;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.button-pesquisar:hover {
+    cursor: pointer;
+}
+
+.button1 {
+    padding: 1rem;
+    width: 12rem;
+    background-color: #171821;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.button2 {
+    padding: 1rem;
+    width: 12rem;
+    background-color: #171821;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+.button2:hover {
+    cursor: pointer;
+}
+
+.titulo-img {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+}
+
+.section-pesquisa {
+    background-color: #171821;
+    /* width: 50%;
+    max-width: 500px;  */
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1rem;
+}
+
+.personagens {
+    border: blue; 
+    /* width: 50%;
+    max-width: 500px;  */
+    margin: 2.5rem auto;
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%; 
+    /* Achei que a logo estava pregada demais no topo kkkkkk */
+}
+
+.container > .section-pesquisa {
+    width: 50%;
+    max-width: 500px; 
+    background-color: #171821;
+}
+
+.container > .personagens {
+    width: 90%;
+    max-width: 90%; 
+    height: 25rem;
+    background-color: #171821;
+}
